@@ -29,6 +29,3 @@ defined as a predicate so that it may be optionally checked.
 pred Acyclic {
 	no s: State | s in s.^nextState
 }
-
-
-run Acyclic for 5
